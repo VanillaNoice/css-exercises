@@ -8,22 +8,66 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  font-weight: 900px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 70px;
+  padding-left: 20px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
 }
+.h {
+  display: flex;
+  width: 160vh;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  font-size: 25px;
+  line-height: 50px;
+  list-style: none;
 
+}
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 85vh;
+  flex: 1 0 auto;
 }
 
+.cards {
+  display: flex;
+  flex: 0 1 auto;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+display: flex;
+width: 330px;
+height: 330px;
 }
